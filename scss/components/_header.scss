@@ -1,0 +1,39 @@
+.nav-link {
+    color: $secondary-color;
+    font-size: map-get($font-sizes, medium); 
+}
+
+.bg-menu {
+    background-color: $primary-color; 
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+}
+
+.logo {
+    width: $logo-size; 
+}
+
+.navbar-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-icons a {
+    margin-left: 15px;
+}
+
+.icon {
+    width: $icon-size; 
+    height: auto;
+}
