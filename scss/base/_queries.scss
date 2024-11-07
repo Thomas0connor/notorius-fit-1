@@ -10,9 +10,16 @@
             font-size: map-get($font-sizes, medium);
         }
 
+        .nav-botones {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px; 
+            width: 100%; 
+        }
+
         .nav-botones a {
-            width: 80%;
-            margin: 10px 0;
+            width: calc(50% - 10px); 
+            margin: 5px 0;
         }
     }
 }

@@ -341,9 +341,14 @@ footer {
     text-align: center; }
     .nav h2 {
       font-size: 20px; }
+    .nav .nav-botones {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      width: 100%; }
     .nav .nav-botones a {
-      width: 80%;
-      margin: 10px 0; } }
+      width: calc(50% - 10px);
+      margin: 5px 0; } }
 
 /*!-Tarjetas de producto-*/
 @media (max-width: 768px) {
