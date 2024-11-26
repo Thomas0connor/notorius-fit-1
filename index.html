@@ -47,7 +47,10 @@
 
                     <div class="navbar-icons">
                         <a href="#"><img src="./img/lupa.png" alt="Buscar" class="icon"></a>
-                        <a href="#"><img src="./img/carrito.png" alt="Carrito" class="icon"></a>
+                        <a href="./pages/carrito.html" class="icon-carrito">
+                            <img src="./img/carrito.png" alt="Carrito" class="icon">
+                            <span id="contador-carrito" class="contador-carrito">0</span>
+                        </a>
                         <a href="#"><img src="./img/perfil.png" alt="perfil" class="icon"></a>
                     </div>
                 </div>
@@ -92,14 +95,14 @@
         </section>
         <section class="productos">
             <div class="productos-contenedor">
-                <div class="producto-tarjeta">
+                <div class="producto-tarjeta" data-id="1" data-nombre="Whey Protein Star Nutrition 1kg" data-precio="31160">
                     <a href="./pages/comprar.html">
                         <img src="./img/Proteina 1.png" alt="Proteina star">
                     </a>
                     <h3>Whey Protein Star Nutrition 1kg</h3>
                     <h2>$31.160</h2>
                     <div class="botones">
-                        <a class="boton-comprar" href="">Comprar</a>
+                        <a class="boton-comprar" href="javascript:void(0)">Comprar</a>
                         <a class="boton-ver" href="./pages/comprar.html">Ver</a>
                     </div>
                 </div>
@@ -170,6 +173,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 
 </body>
 
